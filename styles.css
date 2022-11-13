@@ -7,8 +7,13 @@ body{
     background-position: center;
 }
 
+.assignments{
+   display:flex; 
+   flex-wrap:wrap;
+}
+
 .assignment{
-    display:flex;
+    
     padding:10px;
     margin: 50px;
     background-image: url("background2.jpg");
@@ -20,8 +25,10 @@ body{
 
 .assignment img{
     width: 200px;
-    margin: 5px;
+    margin: 10px;
     border:5px solid #0F00F0;
+    display:block;
+    margin:auto;
 }
 
 
