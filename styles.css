@@ -13,9 +13,10 @@ body{
 }
 
 .assignment{
-    
+    width:22%;
     padding:10px;
     margin: 50px;
+    padding:20px 10px;
     background-image: url("background2.jpg");
     background-position: center;
     background-size: cover;
